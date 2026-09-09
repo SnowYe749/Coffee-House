@@ -255,6 +255,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 36px;
 }
 
@@ -326,6 +327,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 36px;
 }
 
@@ -669,5 +671,45 @@ footer p span {
 
     .card {
         padding: 35px 50px;
+    }
+
+    .products-title {
+        font-size: 50px;
+    }
+
+    .card-product {
+        max-width: 280px;
+    }
+
+    .btn-latest {
+        margin: 20px 0 30px 0;
+    }
+
+    .product-img {
+        margin-bottom: 15px;
+    }
+
+    .customer-title {
+        font-size: 50px;
+    }
+
+    .card-customer {
+        max-width: 280px;
+    }
+
+    .customer-svg {
+        margin-top: 20px;
+    }
+
+    .card-customer-top p {
+        margin: 20px 0 20px 0;
+    }
+
+    .user-photo {
+        margin-bottom: 20px;
+    }
+
+    .cust-starr {
+        margin-bottom: 20px;
     }
 }
