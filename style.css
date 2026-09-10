@@ -580,6 +580,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
     gap: 13px;
     margin-bottom: 25px;    
 }
@@ -641,6 +642,7 @@ footer p span {
 
     .about-title {
         font-size: 50px;
+        margin: 35px 0;
     }
 
     .about-img img {
@@ -667,6 +669,7 @@ footer p span {
 
     .menu-title {
         font-size: 50px;
+        margin: 35px 0;
     }
 
     .card {
@@ -675,10 +678,15 @@ footer p span {
 
     .products-title {
         font-size: 50px;
+        margin: 35px 0;
     }
 
     .card-product {
         max-width: 280px;
+    }
+
+    .cards-blogs {
+        margin: 0 auto 30px auto;
     }
 
     .btn-latest {
@@ -691,6 +699,7 @@ footer p span {
 
     .customer-title {
         font-size: 50px;
+        margin: 35px 0;
     }
 
     .card-customer {
@@ -710,6 +719,53 @@ footer p span {
     }
 
     .cust-starr {
+        margin-bottom: 20px;
+    }
+
+    .contact-title {
+        font-size: 50px;
+        margin: 35px 0;
+    }
+
+    .form-contact p {
+        margin: 0 0 20px 0;
+    }
+
+    .contact-form {
+        gap: 20px;
+    }
+
+    .blogs-title {
+        font-size: 50px;
+        margin: 35px 0;
+    }
+
+    .cards-blogs {
+        flex-wrap: wrap;
+        gap: 25px;
+    }
+
+    .card-blog {
+        max-width: 290px;
+    }
+
+    .card-blog img {
+        margin-bottom: 20px;
+    }
+
+    .blog-description {
+        margin-bottom: 15px;
+    }
+
+    footer {
+       padding: 20px 10% 15px 10%; 
+    }
+
+    .social-links {
+        margin-bottom: 25px;
+    }
+
+    .nav-links {
         margin-bottom: 20px;
     }
 }
