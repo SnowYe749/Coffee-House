@@ -262,6 +262,7 @@ body {
 .card-product {
     width: 100%;
     max-width: 376px;
+    max-height: 541px;
     border: 1px solid gray;
     text-align: center;
 }
@@ -364,10 +365,6 @@ body {
     font-weight: 700;
     font-size: 20px;
     margin-bottom: 15px;
-}
-
-.cust-starr {
-    margin-bottom: 30px;
 }
 
 .contact {
@@ -661,15 +658,21 @@ footer p span {
 
     .about-text h2 {
         font-size: 26px;
+        margin-bottom: 20px;
     }
 
     .about-text p {
         font-size: 16px;
+        margin-bottom: 20px;
     }
 
     .menu-title {
         font-size: 50px;
         margin: 35px 0;
+    }
+
+    .cards {
+        gap: 25px;
     }
 
     .card {
@@ -681,8 +684,21 @@ footer p span {
         margin: 35px 0;
     }
 
+    .cards-products {
+        gap: 25px;
+    }
+
     .card-product {
         max-width: 280px;
+        max-height: 500px;
+    }
+
+    .btn-latest {
+        margin: 20px 30px;
+    }
+
+    .product-img {
+        margin-bottom: 10px;
     }
 
     .cards-blogs {
@@ -697,9 +713,21 @@ footer p span {
         margin-bottom: 15px;
     }
 
+    .star {
+        margin: 10px 0 10px 0;
+    }
+
+    .price {
+        margin-bottom: 10px;
+    }
+
     .customer-title {
         font-size: 50px;
         margin: 35px 0;
+    }
+
+    .cards-customer {
+        gap: 25px;
     }
 
     .card-customer {
@@ -709,7 +737,7 @@ footer p span {
     .customer-svg {
         margin-top: 20px;
     }
-
+    
     .card-customer-top p {
         margin: 20px 0 20px 0;
     }
@@ -747,6 +775,7 @@ footer p span {
 
     .card-blog {
         max-width: 290px;
+        max-height: 520px;
     }
 
     .card-blog img {
