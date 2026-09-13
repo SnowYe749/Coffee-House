@@ -367,6 +367,10 @@ body {
     margin-bottom: 15px;
 }
 
+.cust-starr {
+    margin-bottom: 30px;
+}
+
 .contact {
     padding: 0 10%;
     width: 100%;
@@ -637,6 +641,10 @@ footer p span {
         font-size: 18px;
     }
 
+    .about {
+        padding: 0 5%;
+    }
+
     .about-title {
         font-size: 45px;
         margin: 35px 0;
@@ -669,6 +677,10 @@ footer p span {
     .btn-about {
         padding: 5px 20px;
         font-size: 16px;
+    }
+
+    .menu {
+        padding: 0 10%;
     }
 
     .menu-title {
@@ -706,6 +718,10 @@ footer p span {
     .btn-menu {
         padding: 5px 20px;
         font-size: 16px;
+    }
+
+    .latest-products {
+        padding: 0 5%;
     }
 
     .products-title {
@@ -765,6 +781,10 @@ footer p span {
         margin: auto;
     }
 
+    .customer-review {
+        padding: 0 5%;
+    }
+
     .customer-title {
         font-size: 45px;
         margin: 35px 0;
@@ -775,7 +795,7 @@ footer p span {
     }
 
     .card-customer {
-        max-width: 280px;
+        max-width: 246px;
     }
 
     .card-customer h2 {
@@ -803,17 +823,39 @@ footer p span {
         height: 12px;
     }
 
+    .contact {
+        padding: 0 5%;
+    }
+
     .contact-title {
         font-size: 45px;
         margin: 35px 0;
     }
 
+    .contact-content {
+        min-height: 420px;
+    }
+
     .form-contact p {
-        margin: 0 0 20px 0;
+        font-size: 35px;
+        margin-bottom: 20px;
+    }
+
+    .btn-contact {
+       font-size: 16px; 
     }
 
     .contact-form {
         gap: 20px;
+    }
+
+    .input-box img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .blogs {
+        padding: 0 5%;
     }
 
     .blogs-title {
@@ -827,16 +869,30 @@ footer p span {
     }
 
     .card-blog {
-        max-width: 290px;
-        max-height: 520px;
+        max-width: 246px;
+        max-height: 550px;
     }
 
     .card-blog img {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
+    }
+
+    .card-blog-content h2 {
+        font-size: 20px;
+    }
+
+    .date-blog {
+        font-size: 16px;
     }
 
     .blog-description {
+        font-size: 15px;
         margin-bottom: 15px;
+    }
+
+    .btn-blog {
+        padding: 5px 20px;
+        font-size: 16px;
     }
 
     footer {
