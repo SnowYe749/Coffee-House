@@ -680,7 +680,7 @@ footer p span {
     }
 
     .menu {
-        padding: 0 10%;
+        padding: 0 5%;
     }
 
     .menu-title {
@@ -903,7 +903,26 @@ footer p span {
         margin-bottom: 25px;
     }
 
+    .social-icon {
+        max-width: 60px;
+        padding: 15px 15px;
+    }
+
+    .social-icon img {
+        width: 23px;
+        height: 23px;
+    }
+
     .nav-links {
         margin-bottom: 20px;
+    }
+
+    .nav-links a {
+        font-size: 14px;
+        padding: 5px 10px;
+    }
+
+    footer p {
+        font-size: 14px;
     }
 }
