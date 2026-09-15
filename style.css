@@ -62,7 +62,7 @@ body {
 .hero-content {
     width: 100%;
     max-width: 614px;
-    margin-left: 70px;
+    margin: 0 0 0 70px;
 }
 
 .hero-content h1 {
@@ -367,10 +367,6 @@ body {
     margin-bottom: 15px;
 }
 
-.cust-starr {
-    margin-bottom: 30px;
-}
-
 .contact {
     padding: 0 10%;
     width: 100%;
@@ -641,12 +637,8 @@ footer p span {
         font-size: 18px;
     }
 
-    .about {
-        padding: 0 5%;
-    }
-
     .about-title {
-        font-size: 45px;
+        font-size: 50px;
         margin: 35px 0;
     }
 
@@ -665,26 +657,17 @@ footer p span {
     }
 
     .about-text h2 {
-        font-size: 24px;
+        font-size: 26px;
         margin-bottom: 20px;
     }
 
     .about-text p {
-        font-size: 14px;
+        font-size: 16px;
         margin-bottom: 20px;
     }
 
-    .btn-about {
-        padding: 5px 20px;
-        font-size: 16px;
-    }
-
-    .menu {
-        padding: 0 5%;
-    }
-
     .menu-title {
-        font-size: 45px;
+        font-size: 50px;
         margin: 35px 0;
     }
 
@@ -694,38 +677,10 @@ footer p span {
 
     .card {
         padding: 35px 50px;
-        max-width: 246px;
-        width: 100%;
-    }
-
-    .card img {
-        width: 80px;
-        height: 80px;
-    }
-
-    .card h2 {
-        font-size: 18px;
-    }
-
-    .price {
-        font-size: 16px;
-    }
-
-    .price span {
-        font-size: 12px;
-    }
-
-    .btn-menu {
-        padding: 5px 20px;
-        font-size: 16px;
-    }
-
-    .latest-products {
-        padding: 0 5%;
     }
 
     .products-title {
-        font-size: 45px;
+        font-size: 50px;
         margin: 35px 0;
     }
 
@@ -734,15 +689,12 @@ footer p span {
     }
 
     .card-product {
-        padding: 5px 20px;
-        max-width: 246px;
-        max-height: 405px;
-        width: 100%;
+        max-width: 280px;
+        max-height: 500px;
     }
 
     .btn-latest {
         margin: 20px 30px;
-        padding: 10px;
     }
 
     .product-img {
@@ -754,39 +706,23 @@ footer p span {
     }
 
     .btn-latest {
-        margin: 20px 0 20px 0;
-    }
-
-    .btn-latest img {
-        width: 20px;
-        height: 20px;
+        margin: 20px 0 30px 0;
     }
 
     .product-img {
         margin-bottom: 15px;
-        width: 150px;
-        height: 210px;
     }
 
     .star {
         margin: 10px 0 10px 0;
     }
 
-    .star img {
-        width: 12px;
-        height: 12px;
-    }
-
     .price {
-        margin: auto;
-    }
-
-    .customer-review {
-        padding: 0 5%;
+        margin-bottom: 10px;
     }
 
     .customer-title {
-        font-size: 45px;
+        font-size: 50px;
         margin: 35px 0;
     }
 
@@ -795,11 +731,7 @@ footer p span {
     }
 
     .card-customer {
-        max-width: 246px;
-    }
-
-    .card-customer h2 {
-        font-size: 18px;
+        max-width: 280px;
     }
 
     .customer-svg {
@@ -808,58 +740,31 @@ footer p span {
     
     .card-customer-top p {
         margin: 20px 0 20px 0;
-        font-size: 15px;
     }
 
     .user-photo {
         margin-bottom: 20px;
-        width: 80px;
-        height: 80px;
     }
 
     .cust-starr {
         margin-bottom: 20px;
-        width: 12px;
-        height: 12px;
-    }
-
-    .contact {
-        padding: 0 5%;
     }
 
     .contact-title {
-        font-size: 45px;
+        font-size: 50px;
         margin: 35px 0;
     }
 
-    .contact-content {
-        min-height: 420px;
-    }
-
     .form-contact p {
-        font-size: 35px;
-        margin-bottom: 20px;
-    }
-
-    .btn-contact {
-       font-size: 16px; 
+        margin: 0 0 20px 0;
     }
 
     .contact-form {
         gap: 20px;
     }
 
-    .input-box img {
-        width: 30px;
-        height: 30px;
-    }
-
-    .blogs {
-        padding: 0 5%;
-    }
-
     .blogs-title {
-        font-size: 45px;
+        font-size: 50px;
         margin: 35px 0;
     }
 
@@ -869,30 +774,16 @@ footer p span {
     }
 
     .card-blog {
-        max-width: 246px;
-        max-height: 550px;
+        max-width: 290px;
+        max-height: 520px;
     }
 
     .card-blog img {
-        margin-bottom: 15px;
-    }
-
-    .card-blog-content h2 {
-        font-size: 20px;
-    }
-
-    .date-blog {
-        font-size: 16px;
+        margin-bottom: 20px;
     }
 
     .blog-description {
-        font-size: 15px;
         margin-bottom: 15px;
-    }
-
-    .btn-blog {
-        padding: 5px 20px;
-        font-size: 16px;
     }
 
     footer {
@@ -903,26 +794,45 @@ footer p span {
         margin-bottom: 25px;
     }
 
-    .social-icon {
-        max-width: 60px;
-        padding: 15px 15px;
-    }
-
-    .social-icon img {
-        width: 23px;
-        height: 23px;
-    }
-
     .nav-links {
         margin-bottom: 20px;
     }
+}
 
-    .nav-links a {
-        font-size: 14px;
-        padding: 5px 10px;
+@media (max-width: 768px) {
+    .navbar {
+        padding: 0 3%;
     }
 
-    footer p {
-        font-size: 14px;
+    .hero {
+        padding: 0 3%;
+    }
+
+    .about {
+        padding: 0 3%;
+    }
+
+    .menu {
+       padding: 0 3%; 
+    }
+
+    .latest-products {
+        padding: 0 3%;
+    }
+
+    .customer-review {
+        padding: 0 3%;
+    }
+
+    .contact {
+        padding: 0 3%;
+    }
+
+    .blogs {
+        padding: 0 3%;
+    }
+
+    footer {
+        padding: 0 3%;
     }
 }
